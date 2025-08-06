@@ -1,6 +1,6 @@
 # 📘 Exercícios Python - BFD Turma 3
 
-Este repositório contém os exercícios práticos desenvolvidos durante as aulas da **Turma 3 - Backend com Python (BFD)**.
+Este repositório contém os exercícios práticos desenvolvidos durante as aulas da **Turma 3 - sala provisória 404 - Backend com Python (BFD)**.
 
 Os arquivos foram desenvolvidos no ambiente **GitHub Codespaces** como parte do processo de aprendizado da linguagem Python.
 
