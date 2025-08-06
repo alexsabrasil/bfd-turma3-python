@@ -1,0 +1,6 @@
+Nome: Alexsandra
+Idade: 48
+Idade daqui a 10 anos: 58
+Preço original: R$ 100.00
+Preço com 10% de desconto: R$ 90.00
+Matriculado: True
