@@ -1,5 +1,5 @@
-# aula4_exercicios.py
-# Exercício prático - Aula 4
+# teste_aula4.py
+# Exercício prático - Aula 4 com gravação de respostas em arquivo
 
 # 1. STRING
 nome = input("Digite seu nome: ")
@@ -20,3 +20,15 @@ print(f"🔹 O valor com 10% de desconto é: R$ {preco_com_desconto:.2f}\n")
 resposta = input("Você está matriculado? (sim/não): ").strip().lower()
 matriculado = True if resposta == "sim" else False
 print(f"🔸 Status de matrícula: {matriculado}\n")
+
+# 5. SALVANDO NO ARQUIVO
+with open("respostas.txt", "w", encoding="utf-8") as arquivo:
+    arquivo.write(f"Nome: {nome}\n")
+    arquivo.write(f"Idade: {idade}\n")
+    arquivo.write(f"Idade daqui a 10 anos: {idade_futura}\n")
+    arquivo.write(f"Preço original: R$ {preco:.2f}\n")
+    arquivo.write(f"Preço com 10% de desconto: R$ {preco_com_desconto:.2f}\n")
+    arquivo.write(f"Matriculado: {matriculado}\n")
+
+print("✅ As respostas foram salvas no arquivo 'respostas.txt' com sucesso!")
+
